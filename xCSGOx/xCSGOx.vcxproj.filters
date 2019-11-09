@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SDK">
+      <UniqueIdentifier>{2aa0999d-80c5-4162-acde-28e53a15d8c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mem">
+      <UniqueIdentifier>{9c605d05-1089-4dc2-b2c2-d48c277f9c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SDK">
+      <UniqueIdentifier>{0e800206-1673-44d8-adcf-b607b65f5159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mem">
+      <UniqueIdentifier>{c06ea5ec-b55b-4f0c-9907-af09595fb15d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{d56dff22-19d5-4312-939d-177f2dee7a6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats">
+      <UniqueIdentifier>{b21aa902-c2c9-49b5-ab48-8fd8a1a4a08c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings">
+      <UniqueIdentifier>{53836cf4-8fc0-4dbb-ae3c-4ee9f4cdce91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Headers">
+      <UniqueIdentifier>{63cc0af0-1710-4608-a493-c6a39410186c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LocalPlayer.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Source Files\Mem</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheats\Bunnyhop.cpp">
+      <Filter>Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheats\Glow.cpp">
+      <Filter>Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheats\RankReveal.cpp">
+      <Filter>Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheats\Triggerbot.cpp">
+      <Filter>Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheats\Radarhack.cpp">
+      <Filter>Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheats\NoFlash.cpp">
+      <Filter>Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheats\Aimbot.cpp">
+      <Filter>Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="InvertKeys.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="CFG.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalPlayer.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="W2S.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Xor.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.hpp">
+      <Filter>Header Files\Mem</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Header Files\Mem</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheats.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Source Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheats\Radarhack.h">
+      <Filter>Cheats\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheats\NoFlash.h">
+      <Filter>Cheats\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheats\Glow.h">
+      <Filter>Cheats\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheats\Bunnyhop.h">
+      <Filter>Cheats\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheats\RankReveal.h">
+      <Filter>Cheats\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheats\Triggerbot.h">
+      <Filter>Cheats\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheats\Aimbot.h">
+      <Filter>Cheats\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="InvertKeys.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="CFG.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
